@@ -26,7 +26,7 @@ console.log(`Current hobby: ${currentHobby}`);
 
 ```
 
-- 🔭 I’m currently working on: Eonic.ai, a no-code AI project using tensorflow as the main ML framework for technical and non technical people, creating various models in the browsers that can be exported or used in context of solving workflow automations.
+- 🔭 I’m currently working on: Eonic.ai, a no-code AI project using tensorflow as the main ML framework for technical and non technical people, creating various models in the browsers that can be exported or used in context of solving workflow automations, all without writing a single line of code.
 - 🌱 I’m currently learning: more about machine learning and AI technologies.
 - 👯 I’m looking to collaborate on: open source projects related to web development or machine learning.
 - 🤔 I’m looking for help with: improving my skills in machine learning.
