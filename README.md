@@ -3,9 +3,27 @@
 Hey there! 👋 I'm Daniel - a software engineer who loves to code, laugh, and explore the great outdoors. 
 
 ```ts
-const hobbies = [  "Flying planes",  "Kite surfing",  "Surfing",  "Fishing",  "Driving boats",  "Camping",  "Hiking"];
+type Hobby = "Flying planes" | "Kite surfing" | "Surfing" | "Fishing" | "Driving boats" | "Camping" | "Hiking";
 
-console.log(`Current hobby: ${hobbies[Math.floor(Math.random() * hobbies.length)]}`);
+const hobbies: Hobby[] = [
+  "Flying planes",
+  "Kite surfing",
+  "Surfing",
+  "Fishing",
+  "Driving boats",
+  "Camping",
+  "Hiking"
+];
+
+function getCurrentHobby(hobbies: Hobby[]): Hobby {
+  const randomIndex: number = Math.floor(Math.random() * hobbies.length);
+  return hobbies[randomIndex];
+}
+
+const currentHobby: Hobby = getCurrentHobby(hobbies);
+
+console.log(`Current hobby: ${currentHobby}`);
+
 ```
 
 - 🔭 I’m currently working on: Eonic.ai, a no-code AI project using tensorflow as the main ML framework for technical and non technical people, creating various models in the browsers that can be exported or used in context of solving workflow automations.
